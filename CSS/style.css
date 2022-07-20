@@ -1,22 +1,31 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
-.name-highlight{
-    color: orange;
+.name-highlight {
+  color: orange;
 }
-h1{
-    font-weight: 50px;
+h1 {
+  font-weight: 50px;
 }
-.half-width{
-    width: 30%;
-    float: left;
-    margin-left:5%;
-    padding-left: 2%;
+.half-width {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
-.half-width p{
-    text-align: justify;
-    text-decoration: solid;
+.half-width p {
+  text-align: justify;
+  text-decoration: solid;
 }
-.half-width img{
-    width: 150%;
+.half-width img {
+  padding-top: 40px;
+  width: 160%;
+}
+.top-banner {
+  background-image: url(/Imgaes/top-banner.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
 }
